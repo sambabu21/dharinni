@@ -2,6 +2,7 @@ import { people } from "../../Data"
 import Reveal from "../../Animations/Reveal"
 import { useState } from "react"  
 import Modal from "./Modal"
+import { Link } from "react-router-dom"
 
 export default function Example() {
 
@@ -92,6 +93,14 @@ export default function Example() {
       </div>
       </Reveal>
      { open ? <Modal details={details} setOpen={setOpen} />: null }
+      <div className="w-full flex justify-center items-center mt-20 sm:gap-10 px-10 smg:px-0">
+        <h2 className="text-[#F8FAE5] text-lg">Want to be a part of DHARINNI ?</h2>
+        <Link
+             to="/contact"
+        >
+              <button className="btn-hover p-5 sm:p-8 text-[#F8FAE5] bg-[#43766C]   hover:bg-[#2a4943] hover:text-[#F8FAE5] text-xs md:text-lg rounded-md shadow-md font-semibold ">JOIN US →</button>
+        </Link> 
+      </div>  
     </div> 
   )
 }

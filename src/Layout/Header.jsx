@@ -63,6 +63,12 @@ export default function Header(){
                         Events 
                     </NavLink>
                     <NavLink
+                        to="/gallery"
+                        className='nav__link text-sm sm:text-md lg:text-lg font-semibold leading-6 text-[#E6C5AD] mx-2 '
+                    >
+                        Gallery 
+                    </NavLink>
+                    <NavLink
                         to="/contact"
                         className='nav__link text-sm sm:text-md lg:text-lg font-semibold leading-6 text-[#E6C5AD] mx-2 '
                     >

@@ -7,7 +7,7 @@ export default function Form(){
 
     return (
         <div className="pb-20 w-full bg-[#F8FAE5] flex justify-center items-center flex-col">
-            <h1 className=" pt-10 text-stone-900 font-bold text-lg md:text-2xl helvetica">Make a Difference</h1>
+            <h1 className=" pt-10 text-stone-900 font-bold text-lg md:text-2xl ">Make a Difference</h1>
             <p className="text-sm text-stone-900  pt-5 pb-10 mx-auto md:text-lg md:pb-0">Donate to our cause or make a difference by being a part of us. Fill in the form below and we'll reach out to you.</p>
             <form action="#" ref={form} method="POST" className="mx-auto  max-w-xl sm:mt-10" >
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

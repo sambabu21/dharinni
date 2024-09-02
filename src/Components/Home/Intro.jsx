@@ -44,11 +44,11 @@ export default function Intro(){
                 </div>
               </div> */}
               <div className="flex justify-center items-center flex-col p-10 w-full sm:flex-row">
-                <div className="lg:w-[400px] flex justify-center md:pl-10 bg-transparent z-10 lg:h-[500px] h-[500px]">
+                <div className="lg:w-1/2 flex justify-center md:pl-10 bg-transparent z-10 lg:h-[500px] h-[500px]">
                   <Carousel />
                   {/* <img className="w-[20rem] h-[30rem]" src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80" alt="" /> */}
                 </div>
-                <div className="lg:w-2/3 flex flex-col items-center lg:items-start gap-10 md:px-20 bg-transparent z-10 pt-10 sm:pt-0">
+                <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-10 md:px-20 bg-transparent z-10 pt-10 sm:pt-0">
                     <p class="lg:text-lg text-stone-950 text-justify  mx-auto"><span className="font-bold">D H A R I N N I</span>, is a trust founded in 2018 in Kerala, with the intent to do our part for the earth we live on. We are a core team of young architects, planners, conservation enthusiasts and techies, supported by an advisory team of 
                                               Civil professionals.The aspiration is to contribute to conserving DHARINNI, this earth we live on, within our framework of understanding and expertise. We are able to encourage and motivate even a handful of people around us to understand the importance of collective intervention and contribute along with us, then we know we’re doing good.</p>
                     <Link

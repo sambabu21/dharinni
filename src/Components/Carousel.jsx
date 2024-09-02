@@ -47,7 +47,8 @@ export default function Carousel(){
                                     key={i} 
                                     src={url} 
                                     className={imageIndex===i?"min-w-full object-cover block opacity-70 select-none":"min-w-full object-cover block hidden"}
-                                    alt={i} />
+                                    alt={i}
+                                    loading="lazy" />
                     })
                 }
                 {/* <div className="absolute top-1/2 ">
@@ -59,9 +60,6 @@ export default function Carousel(){
                 <FontAwesomeIcon icon={faArrowRight} className="icon top-1/2 right-0 text-white" onClick={showNextImage}/>
                 <FontAwesomeIcon icon={faArrowLeft} className="icon top-1/2 left-0 text-white" onClick={showPrevImage}/>
             </div>
-            
-            
-            
         </div>
     )
 }

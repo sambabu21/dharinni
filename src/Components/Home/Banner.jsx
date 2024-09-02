@@ -5,7 +5,7 @@ export default function Banner(){
     return(
         <div class="carousel h-screen relative isolate overflow-hidden bg-stone-800 px-6 py-24 sm:py-32 lg:px-8 flex justify-center items-center">
             <div className=''>
-                <img src={Image} alt="" class="absolute inset-0 -z-10 h-full w-full object-cover parallax-bg " />
+                <img src={Image} alt="" class="absolute inset-0 -z-10 h-full w-full object-cover parallax-bg " loading='lazy'/>
             </div>
             
                 <div class="mx-auto w-1/2  md:absolute md:left-5 md:bottom-5 lg:left-10 lg:bottom-10">
